@@ -1,8 +1,8 @@
 package coding;
 
 public class Queue {
-	private int size,front;
-	private int data[];
+	protected int size,front;
+	protected int data[];
 	public Queue() {
 		this(5);
 	}

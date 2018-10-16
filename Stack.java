@@ -1,8 +1,8 @@
 package coding;
 
 public class Stack {
-	private int top;
-	private int[] data;
+	protected int top;
+	protected int[] data;
 	
 	public Stack() {
 		this(5);
